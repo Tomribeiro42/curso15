@@ -18,7 +18,7 @@ public class Program {
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		
 		System.out.println("Entre com os dados do aluguel");
-		System.out.print("Model do carro 33");
+		System.out.print("Model do carro teste");
 		String carModel = sc.nextLine();
 		System.out.println("Retirada (dd/MM/yyyy hh:mm): ");
 		LocalDateTime start = LocalDateTime.parse(sc.nextLine(), fmt);
